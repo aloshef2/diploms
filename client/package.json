@@ -1,0 +1,73 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.7.0",
+    "antd": "^3.24.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.5.0",
+    "formik": "^1.5.8",
+    "jquery": "^3.5.1",
+    "mdbreact": "^4.26.1",
+    "moment": "^2.24.0",
+    "paypal-checkout": "^4.0.314",
+    "pure-react-carousel": "^1.27.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-table-next": "^4.0.1",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-chartjs-2": "^2.9.0",
+    "react-checklist": "^1.0.9",
+    "react-credit-cards": "^0.8.3",
+    "react-dom": "^16.8.6",
+    "react-dropzone": "^10.2.1",
+    "react-flip-move": "^3.0.4",
+    "react-icons": "^3.7.0",
+    "react-idle-timer": "^4.2.12",
+    "react-image-gallery": "^1.0.3",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-redux": "^7.1.0-rc.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.4.1",
+    "react-select": "^3.1.0",
+    "react-tabs": "^3.1.1",
+    "redux": "^4.0.0",
+    "redux-form": "^8.2.6",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "simplebar": "^5.2.0",
+    "simplebar-react": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^1.0.3"
+  }
+}

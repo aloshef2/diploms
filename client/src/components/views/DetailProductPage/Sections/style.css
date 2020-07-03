@@ -1,0 +1,84 @@
+.CarouselProviderProduct {
+    position: relative;
+}
+
+.DotCarusel {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.DotCarusel button {
+    z-index: 5;
+    height: 15px;
+    width: 15px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #FFDD00;
+    border: 2px solid #FBB034;
+}
+
+.DotCarusel button:hover {
+    background-color: rgb(221, 200, 65);
+}
+
+.DotImage {
+    margin: 1px;
+    margin-right: 15px;
+    border: 1px solid #FBB034;
+}
+
+
+.ButtonBack {
+    top: 50%;
+    left: 15pt;
+    background-color: transparent;
+    border: none;
+    color: #FBB034;
+    transform: translateY(-50%);
+    position: absolute;
+}
+.ButtonBack i {
+    font-size: 30pt;
+}
+.ButtonNext {
+    top: 50%;
+    right: 10pt;
+    background-color: transparent;
+    border: none;
+    color: #FBB034;
+    transform: translateY(-50%);
+    position: absolute;
+}
+.ButtonNext i {
+    font-size: 30pt;
+}
+
+.react-tabs {
+    background-color: whitesmoke;
+
+}
+
+.react-tabs ul {
+    background-color: #5a5c69;
+}
+.react-tabs .react-tabs__tab-list{
+    padding: 0;
+    height: 40px;
+
+}
+
+.react-tabs .react-tabs__tab{
+    top: 0;
+    width: 33%;
+    background-color: #5a5c69;
+    color: white;
+}
+
+.react-tabs .react-tabs__tab--selected {
+    top:0;
+    background-color: #FBB034;
+    border-radius: 0;
+    width: 33%;
+    color: white;
+}
